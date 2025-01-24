@@ -9,8 +9,15 @@ body {
 
 h1 {
     font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
 }
 
+li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 200;
+}
 
 @media (max-height: 425px) {
     h1 {
