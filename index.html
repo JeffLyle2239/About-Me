@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <style>
         .centered-list {
             list-style-position: inside;
@@ -18,71 +19,89 @@
         h1 {
             font-size: 50px;
         }
+       
         
+        @media (max-height: 425px) {
+            h1 {
+                font-size: 20px;
+            }
+
+            .responsive-img {
+
+                max-width: 100%;
+                height: auto;
+            }
+
+            h2 {
+                font-size: 16px;
+            }
+           
+        }
     </style>
 </head>
 
 <body>
-    <!-- Complete the following steps. Once you are done create a new repository in github, deploy this file to github and send a link to the project in Google Classroom-->
-    <!-- 1. add an H1 tag with your name (hint try using emmet by typing H1 and hit tab) -->
-    
+
+
     <h1>
-        <center> Jeffery Lyle 
+        <center> Jeffery Lyle
     </h1>
     <br>
-<center>
-    <a href="./jobs.html">Jobs</a>
-    <a href="./education.html">Education</a>
-
-    <!-- 2. Add a photo of yourself below your h1 heading  -->
     <center>
-        <img src="./IMG_0318.jpg" alt="Bonneville Salt Flats" width="400" height="650">
-        <img src="./IMG_0290.jpg" alt="Bonneville Salt Flats" width="400" height="650">
-        <img src="./IMG_0318.jpg" alt="Bonneville Salt Flats" width="400" height="650">
-    
-    <!-- 3. Below your photo add an h2 tag with a caption that describes the photo. The size won't' make sense for a caption but we will edit this later with CSS  -->
-    <center>
-        <h2><u>Took a trip to the Bonneville Salt Flats in Utah.</u></h2>
-        <hr>
-    
-    <!-- 4. Below your image create an unordered list with multiple list items in it. The list items should include a timeline about you, facts about you, or you can have two lists that include both. -->
-
-    <div>
-        <p><strong>
-                <center><u>Time is Man-made Construct.</u></center>
-            </strong></p>
-    </div>
+        <a href="./jobs.html">Jobs</a>
+        <a href="./education.html">Education</a>
 
 
-    <ul class="centered-list">
-        <li>Born in 1987 and raised in Tennessee until moving to Cincinnati in 2015.</li>
-        <li>I'm a photographer and golfer, and terrible at both.</li>
-        <li>My Favorite country I've been to is Poland.</li>
-    </ul>
-
-    <p><strong>
-            <center><u>Favorite Things in the World.</u></center>
-        </strong></p>
-
-    <ol class="centered-list">
-        <li>My daughter Leoni.</li>
-        <li>A good sunset.</li>
-        <li>A great cocktail and well prepared meal.</li>
-    </ol>
-
-    </div>
-
-    <!-- 5. Add a link at the bottom of your page that links to your linkedIn account.  -->
-
-<a href="www.linkedin.com/in/jeffery-lyle-a507b3250"><center>Linkedin</center></a>
-    <!-- 6. If you want to go above and beyond and extra flourishes to your page, that would be encouraged and celebrated! -->
+        <div>
+            <center>
+                <img class="responsive-img" src="./IMG_0318.jpg" alt="Bonneville Salt Flats" width="400" height="650">
+                <img class="responsive-img" img src="./IMG_0290.jpg" alt="Bonneville Salt Flats" width="400"
+                    height="650">
+                <img class="responsive-img" img src="./IMG_0318.jpg" alt="Bonneville Salt Flats" width="400"
+                    height="650" class="image-flip-horizontal">
+        </div>
 
 
-    <!-- 7. Deploy this page to  your github and submit the link to your repository. Make sure that everything works on Live Server before you deploy your page!  -->
-<h3>Index</h3>
+        <center>
+            <h2><u>Took a trip to the Bonneville Salt Flats in Utah.</u></h2>
+            <hr>
 
-<a href="/.jobs.html"></a>
-<a href="./education.html"></a>
+
+
+            <div>
+                <p><strong>
+                        <center><u>Time is Man-made Construct.</u></center>
+                    </strong></p>
+            </div>
+
+
+            <ul class="centered-list">
+                <li>Born in 1987 and raised in Tennessee until moving to Cincinnati in 2015.</li>
+                <li>I'm a photographer and golfer, and terrible at both.</li>
+                <li>My Favorite country I've been to is Poland.</li>
+            </ul>
+
+            <p><strong>
+                    <center><u>Favorite Things in the World.</u></center>
+                </strong></p>
+
+            <ol class="centered-list">
+                <li>My daughter Leoni.</li>
+                <li>A good sunset.</li>
+                <li>A great cocktail and well prepared meal.</li>
+            </ol>
+
+            </div>
+
+
+
+            <a href="www.linkedin.com/in/jeffery-lyle-a507b3250">
+                <center>Linkedin</center>
+            </a>
+            <h3>Index</h3>
+
+            <a href="/.jobs.html"></a>
+            <a href="./education.html"></a>
 
 </body>
 

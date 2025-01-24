@@ -1,0 +1,30 @@
+.centered-list {
+    list-style-position: inside;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(182, 114, 87);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+
+@media (max-height: 425px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .responsive-img {
+
+        max-width: 100%;
+        height: auto;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+   
+}
